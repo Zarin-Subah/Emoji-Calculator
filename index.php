@@ -17,11 +17,10 @@
     <p>Emoji Calculator </p>
     <input type= "number" name="number1" placeholder="Enter First number">
     <select name="operand" >
-      <option value="addition"> 
-      &#128125;</option>
-      <option value="subtraction"> &#128128; </option>
-      <option value="multiplication">&#128123;</option>
-      <option value="division">&#x1f631; </option>
+      <option value="Alien">&#128125;</option>
+      <option value="Skull">&#128128; </option>
+      <option value="Ghost">&#128123;</option>
+      <option value="Scream">&#x1f631; </option>
     </select>
     <input type="number" name="number2" placeholder="Enter Second number">
     <button type="submit" name="submit">  Calculate</button>
