@@ -12,4 +12,25 @@ class Emoji_Calc{
         $this->number2 = $three;
     }
 
+    public function emoji_calculator(){
+        switch ($this->operator) {
+            case 'Alien':
+               $result = $this->number1 + $this->number2;
+               return $result;             
+               break;
+           case 'Skull':
+               $result = $this->number1 - $this->number2;
+               return $result;             
+               break;
+           case 'Ghost':    
+               $result = $this->number1 * $this->number2;
+               return $result;             
+               break;
+           case 'Division':    
+                $result = $this->number1 / $this->number2;
+                return $result;             
+                break;
+   
+        }
+       }
 }
